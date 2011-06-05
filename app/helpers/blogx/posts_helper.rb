@@ -1,0 +1,2 @@
+module Blogx::PostsHelper
+end
