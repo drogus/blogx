@@ -9,7 +9,9 @@ Gem::Specification.new do |s|
 
   s.add_dependency("rails", ">= 3.1.0.rc1")
   s.add_dependency("mongoid", ">= 2.0.0")
+  s.add_dependency("mongoid_slug")
   s.add_dependency("haml")
+  s.add_dependency("sass")
 
   s.add_development_dependency("haml-rails", ">= 0.3.4")
 end
