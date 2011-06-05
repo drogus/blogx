@@ -1,0 +1,5 @@
+.blogx
+  .admin
+    .posts
+      - @posts.each do |post|
+        = render 'post', :post => post

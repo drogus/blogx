@@ -1,0 +1,13 @@
+.post_form
+  = form_for [:blogx, :admin, post] do |f|
+    .title
+      = f.label "Title"
+      = f.text_field :title
+    .author
+      = f.label "Author"
+      = f.text_field :author
+    .body
+      = f.label "Body"
+      = f.text_field :body
+    .submit
+      = f.submit

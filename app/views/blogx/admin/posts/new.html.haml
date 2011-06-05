@@ -1,0 +1,17 @@
+.blogx
+  .admin
+    %h1 New Post
+    .post_form
+      = form_for @post, :url => blogx_engine.admin_posts_path, :method => :post do |f|
+        .title
+          = f.label "Title"
+          = f.text_field :title
+        .author
+          = f.label "Author"
+          = f.text_field :author
+        .body
+          = f.label "Body"
+          = f.text_field :body
+        .submit
+          = f.submit
+
